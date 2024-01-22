@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap');
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 11vw;
+    margin: 0 0 0 0;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.7rem;
+}
+img {
+    height: 2.5rem;
+    width: auto;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    color: #FF9B91;
+    text-decoration: none;
+
+    padding-top: 0px;
+} a:hover {
+    color: aliceblue;
+}
+h4 {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-weight: 300;
+    font-size: 2rem;
+    
+    color: #91C3FF;
+}
+
+.aboutViewContainer {   /*Incluye la barra de tareas; Viewport completo*/
+    background-color: #121B26;
+
+    position: relative;
+    top: 100vh;
+
+    height: 100vh;
+    width: 100%;
+}
+.aboutContainer {   /*Excluye la barra de tareas; Solo el contenido*/
+    position: relative;
+    top: 15%;
+    left: 1.5%;
+    right: 1%;
+
+    height: 85%;
+    width: 97.5%;
+
+    color: #91C3FF;
+
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+    font-size: 1.5rem;    
+    
+} .tituloYDescrpcionPersonal {
+    display: block;
+
+    padding-right: 1rem;
+
+} .habilidadesYTecnologias {
+    align-self: flex-start;
+    justify-self: center;
+
+    color: #91FCFF;
+
+} .tecnologiasContainer {    
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
