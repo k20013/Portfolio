@@ -31,7 +31,7 @@ h4 {
 }
 
 .aboutViewContainer {   /*Incluye la barra de tareas; Viewport completo*/
-    background-color: #121B26;
+    background: linear-gradient(#121B26, #253140);
 
     position: relative;
     top: 100vh;

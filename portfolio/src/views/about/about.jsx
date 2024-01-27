@@ -1,14 +1,14 @@
 import styles from './about.module.css';
 
 //Importacion de iconos
-import HTMLIcon from '../../../public/html.icon.png';
-import CSSIcon from '../../../public/css.icon.png';
-import JavaScriptIcon from '../../../public/javaScript.icon.png';
-import GitIcon from '../../../public/git.icon.png';
-import ReactIcon from '../../../public/react.icon.png';
-import BootstrapIcon from '../../../public/bootstrap.icon.png';
-import ReduxIcon from '../../../public/redux.icon.png';
-import SequelizeIcon from '../../../public/sequelize.icon.png';
+import HTMLIcon from '../../assets/html.icon.png';
+import CSSIcon from '../../assets/css.icon.png';
+import JavaScriptIcon from '../../assets/javaScript.icon.png';
+import GitIcon from '../../assets/git.icon.png';
+import ReactIcon from '../../assets/react.icon.png';
+import BootstrapIcon from '../../assets/bootstrap.icon.png';
+import ReduxIcon from '../../assets//redux.icon.png';
+import SequelizeIcon from '../../assets/sequelize.icon.png';
 
 const About = () => {
 

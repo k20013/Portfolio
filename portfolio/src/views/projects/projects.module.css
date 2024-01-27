@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 96px;
+}
+
+.projectsViewContainer { /*View completo*/
+    position: relative;
+    top: 100vh;
+
+    height: 100%;
+    width: 100%;
+
+    background: linear-gradient(#364659, #485B73);
+    color: white;
+}
+.projectsWithoutNavContainer { /*Contenedor que deja un espacio para la barra de navegación*/
+    position: relative;
+    top: 15%;
+
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
