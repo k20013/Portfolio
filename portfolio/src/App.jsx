@@ -7,6 +7,7 @@ import Projects from './views/projects/projects';
 
 // Components
 import NavBar from './components/navBar/navBar';
+import Footer from './components/footer/footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Landing />
       <About />
       <Projects />
+      <Footer />
     </div>
   )
 }

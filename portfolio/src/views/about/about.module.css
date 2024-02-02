@@ -34,9 +34,8 @@ h4 {
     background: linear-gradient(#121B26, #253140);
 
     position: relative;
-    top: 100vh;
 
-    height: 100vh;
+    height: 200vh;
     width: 100%;
 }
 .aboutContainer {   /*Excluye la barra de tareas; Solo el contenido*/

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono&display=swap');
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    margin: 0px 0px 1rem 0px;
+}
+a {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+
+    background: linear-gradient(#0C121A, #121B26);
+    color: white;
+
+    display: flex;
+    } 
+    
+    .linkConatiner {
+        width: 33%;
+        padding: 0px 0px 4rem 1rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }.link {
+        margin: 0px 0px 0px 0.5rem;
+}

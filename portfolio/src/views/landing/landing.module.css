@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100&display=swap');
 
 .landingContainer {
-    background-color: white;
-
-    position: absolute;
+    position: relative;
 
     height: 100vh;
     width: 100%;
 }
 .nameContainer {
-    background-color: white;
     display: flex;
     align-items: flex-end;
 }
@@ -17,15 +14,22 @@
 .name {
     font-family: 'Montserrat', sans-serif;  
     font-size: 16vw;
-    color: #06090D;
     text-wrap: nowrap;
 
     align-self: baseline;
     
-}.subTitle {
+} h1 {
+    background: linear-gradient(to left,#A7BDD9, #5EA7FF);
+    background-clip: text;
+    color: transparent;
+} h2 {
+    color: #91C3FF;
+}
+
+.subTitle {
     font-family: 'Roboto', sans-serif;
     font-size: 32px;
-    color: #121B26;
+    color: #485B73;
 
     position: relative;
     padding-left: 1rem;
