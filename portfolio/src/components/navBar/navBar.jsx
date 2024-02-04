@@ -14,7 +14,7 @@ const NavBar = () => {
             <Instagram />
             <Whatsapp />
 
-            <button class={styles.button}> Descargar CV </button>
+            <button class={styles.button}> Curriculum </button>
             
         </nav>
     )

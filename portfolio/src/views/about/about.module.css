@@ -1,41 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Space+Grotesk:wght@300&display=swap');
 
 h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 11vw;
-    margin: 0 0 0 0;
-}
-p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.7rem;
-}
-img {
-    height: 2.5rem;
-    width: auto;
-}
-a {
-    font-family: 'Roboto', sans-serif;
-    color: #FF9B91;
-    text-decoration: none;
+    font-size: 132px;
 
-    padding-top: 0px;
-} a:hover {
-    color: aliceblue;
-}
-h4 {
-    /*font-family: 'Roboto', sans-serif;*/
-    font-weight: 300;
-    font-size: 2rem;
+    margin: 0px 0px 2.5rem 0px;
+
     
-    color: #91C3FF;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+img {
+    height: 3.5rem;
+    width: auto;
 }
 
 .aboutViewContainer {   /*Incluye la barra de tareas; Viewport completo*/
-    background: linear-gradient(#121B26, #253140);
+    /*background: linear-gradient(#121B26, #253140);*/
 
     position: relative;
 
-    height: 200vh;
+    height: 150vh;
     width: 100%;
 }
 .aboutContainer {   /*Excluye la barra de tareas; Solo el contenido*/
@@ -49,28 +33,47 @@ h4 {
 
     color: #91C3FF;
 
-    display: grid;
-    grid-template-columns: 60% 40%;
-
-    font-size: 1.5rem;    
+    display: flex;
+    flex-direction: column;
     
 } .tituloYDescrpcionPersonal {
     display: block;
 
     padding-right: 1rem;
 
-} .habilidadesYTecnologias {
-    align-self: flex-start;
-    justify-self: center;
+} .descriptionContainer {
+    display: block;    
+    width: 80%;
+    margin: 0px 10% 0px 10%;
 
-    color: #91FCFF;
+} .description {
+    font-size: 1.7rem;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+} 
 
-} .tecnologiasContainer {    
-    width: 100%;
-
+.tecnologiasEInformacionExtra {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
+
+    margin-top: 2.5rem;
+
+    color: #91FCFF;
+
+    } 
+    
+    .informacionExtra {
+    font-family: 'Space Grotesk', sans-serif;
+
+    font-size: 2rem;
+    } 
+
+    .tecnologiasContainer {   
+        width: 35%;
+
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto;
     
 }
