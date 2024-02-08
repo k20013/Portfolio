@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.nav {
+.contacCV {
   background: #485B73;
   box-shadow: inset -24px 24px 100px #242e3a,
             inset 24px -24px 100px #6c89ad;
@@ -13,65 +13,90 @@
   right: 0%;
 
   height: 15%;
-  width: 600px;
+  width: 500px;
   margin: 1rem;    
   border-radius: 25px;
 
   z-index: 1;
+  } 
+
+  .button {
+    --color: #A7BDD9;
+    padding: 0.8em 1.7em;
+    background-color: transparent;
+    border-radius: .3em;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+  }
+ 
+  .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+  }
+ 
+  .button::before {
+    top: -1em;
+    left: -1em;
+  }
+ 
+  .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+  }
+ 
+  .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+  }
+ 
+  .button:hover {
+    color: #364659;
+  }
+ 
+  .button:active {
+    filter: brightness(.8);
 }
 
-.button {
-  --color: #A7BDD9;
-  padding: 0.8em 1.7em;
-  background-color: transparent;
-  border-radius: .3em;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  transition: .5s;
-  font-weight: 400;
-  font-size: 17px;
-  font-family: 'Montserrat', sans-serif;
-  border: 1px solid;
-  text-transform: uppercase;
-  color: var(--color);
+.mailContact {
+  background: #485B73;
+  box-shadow: inset -24px 24px 100px #242e3a,
+            inset 24px -24px 100px #6c89ad;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;    
+
+  position: fixed;
+  top: 0%;
+  left: 0%;
+
+  height: 15%;
+  width: 500px;
+  margin: 1rem;    
+  border-radius: 25px;
+
   z-index: 1;
- }
- 
- .button::before, .button::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 50px;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  border-radius: 50%;
-  z-index: -1;
-  background-color: var(--color);
-  transition: 1s ease;
- }
- 
- .button::before {
-  top: -1em;
-  left: -1em;
- }
- 
- .button::after {
-  left: calc(100% + 1em);
-  top: calc(100% + 1em);
- }
- 
- .button:hover::before, .button:hover::after {
-  height: 410px;
-  width: 410px;
- }
- 
- .button:hover {
-  color: #364659;
- }
- 
- .button:active {
-  filter: brightness(.8);
- }
- 
-  
+  }
+
+  .mail {
+    font-family: 'Montserrat', sans-serif;
+    color: #A7BDD9;
+    font-size: 24px;
+    margin-left: 1.5rem;
+}

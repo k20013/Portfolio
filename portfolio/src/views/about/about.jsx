@@ -7,8 +7,7 @@ import JavaScriptIcon from '../../assets/javaScript.icon.png';
 import GitIcon from '../../assets/git.icon.png';
 import ReactIcon from '../../assets/react.icon.png';
 import BootstrapIcon from '../../assets/bootstrap.icon.png';
-import ReduxIcon from '../../assets//redux.icon.png';
-import SequelizeIcon from '../../assets/sequelize.icon.png';
+import NodeIcon from '../../assets/nodeJs.icon.png'
 
 const About = () => {
 
@@ -47,11 +46,10 @@ const About = () => {
                         <img src={HTMLIcon} alt="HTML icon" />
                         <img src={CSSIcon} alt="CSS icon" />
                         <img src={JavaScriptIcon} alt="JavaScript icon" />
-                        <img src={GitIcon} alt="Git icon" />
+                        <img src={NodeIcon} alt="NodeJs icon" />
                         <img src={ReactIcon} alt="React icon" />
                         <img src={BootstrapIcon} alt="Bootstrap icon" />
-                        <img src={ReduxIcon} alt="Redux icon" />
-                        <img src={SequelizeIcon} alt="Sequelize icon" />
+                        <img src={GitIcon} alt="Git icon" />
                     </div>
 
                 </div>
