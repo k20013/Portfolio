@@ -73,30 +73,3 @@
   .button:active {
     filter: brightness(.8);
 }
-
-.mailContact {
-  background: #485B73;
-  box-shadow: inset -24px 24px 100px #242e3a,
-            inset 24px -24px 100px #6c89ad;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;    
-
-  position: fixed;
-  top: 0%;
-  left: 0%;
-
-  height: 15%;
-  width: 500px;
-  margin: 1rem;    
-  border-radius: 25px;
-
-  z-index: 1;
-  }
-
-  .mail {
-    font-family: 'Montserrat', sans-serif;
-    color: #A7BDD9;
-    font-size: 24px;
-    margin-left: 1.5rem;
-}

@@ -28,13 +28,14 @@ img {
     left: 1.5%;
     right: 1%;
 
-    height: 85%;
+    min-height: 85%;
     width: 97.5%;
 
     color: #91C3FF;
 
     display: flex;
     flex-direction: column;
+    
     
 } .tituloYDescrpcionPersonal {
     display: block;

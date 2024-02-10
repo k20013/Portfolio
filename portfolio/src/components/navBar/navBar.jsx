@@ -5,7 +5,7 @@ import Linkedin from '../icons-btn/linkedin/linkedin';
 import Whatsapp from '../icons-btn/whatsapp/whatsapp';
 
 const abrirPDF = () => {
-    const urlPDF = '../../../public/Caleb s Bravo CV.pdf';
+    const urlPDF = '../../../public/Caleb_Bravo_CV v2.pdf';
     window.open(urlPDF, '_blank');
 }
 

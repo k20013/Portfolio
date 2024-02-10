@@ -9,10 +9,12 @@ import Projects from './views/projects/projects';
 import NavBar from './components/navBar/navBar';
 import Footer from './components/footer/footer';
 
+const retFunc = (x) => x;
+
 function App() {
 
   return (
-    <div>
+    <div className={retFunc("appContainer")}>
       <NavBar />
       <Landing />
       <About />
