@@ -4,9 +4,10 @@ import Github from '../icons-btn/github/github';
 import Linkedin from '../icons-btn/linkedin/linkedin';
 import Whatsapp from '../icons-btn/whatsapp/whatsapp';
 
+import CV_PDF from '../../../public/Caleb_Bravo_CV v2.pdf';
+
 const abrirPDF = () => {
-    const urlPDF = '../../../public/Caleb_Bravo_CV v2.pdf';
-    window.open(urlPDF, '_blank');
+    window.open(CV_PDF, '_blank');
 }
 
 const NavBar = () => {
